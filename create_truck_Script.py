@@ -66,8 +66,8 @@ def run_once():
 
             log('Filling login')
             page.fill('#txtCorporateId', 'AFMDEMO')
-            page.fill('#txtUserName', 'rohitk')
-            page.fill('#txtPassword', 'Rohit@123')
+            page.fill('#txtUserName', 'Asharma')
+            page.fill('#txtPassword', 'Avaal@123')
             # click sign in
             for sel in ['#signin', "button:has-text('Sign In')", 'text=Sign In']:
                 try:
